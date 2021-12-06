@@ -34,24 +34,24 @@ public class Main {
         }
     }
 
-    public String solution(int n, int[] arr ){
+    public String solution(String arr ){
         HashSet<Point> pn = new HashSet<>();
-        String answer = "";
+        int answer = 0;
 
         Queue<Integer> q = new LinkedList<>();
         for(int i=1;i<=n;i++) q.offer(i);
         while(!q.isEmpty()){
-            for(int i=1;i<k;i++) q.offer(q.poll());
+            for(int i=1;i<8;i++) q.offer(q.poll());
             q.poll();
             if(q.size()==1) answer=q.poll();
         }
-        Integer.bitCount()
+       // Integer.bitCount()
         StringBuilder sb = new StringBuilder();
         String str = "";
         HashMap<Integer,Integer> hm = new HashMap<>();
-        hm.get
 
-        return answer;
+
+        return str;
     }
     public static void main(String[] args) {
 	// write your code here

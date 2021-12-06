@@ -6,35 +6,7 @@ import java.util.Scanner;
 public class Test2 {
 /*
 2-1
-    public class Main {
-        public ArrayList<Integer> solution(int n, int[] arr){
-            ArrayList<Integer> answer = new ArrayList<>();
-        */
-/*int tmp = Integer.MIN_VALUE;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>tmp) answer.add(arr[i]);
-            tmp = arr[i];
-        }*//*
 
-            answer.add(arr[0]);
-            for(int i=1;i<arr.length;i++){
-                if(arr[i]>arr[i-1]) answer.add(arr[i]);
-            }
-            return answer;
-        }
-        public static void main(String[] args) {
-            // write your code here
-            com.company.Main T = new com.company.Main();
-            Scanner in=new Scanner(System.in);
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for(int i=0;i<n; i++){
-                arr[i] = in.nextInt();
-            }
-            for(int x:T.solution(n,arr)) System.out.print(x+" ");
-
-        }
-    }
 */
 /*
 2-2

@@ -55,10 +55,14 @@ public class Main {
     }
     public static void main(String[] args) {
 	// write your code here
+        /*
         Main T = new Main();
         Scanner in=new Scanner(System.in);
         //int n = in.nextInt();
         String str = in.nextLine();
         System.out.println(T.solution(str));
+        */
+        Study3.Algorithm6 study = new Study3.Algorithm6();
+        study.exec();
     }
 }
